@@ -1,0 +1,11 @@
+{
+      "name": "proxy-server",
+      "type": "module",
+      "scripts": {
+        "start": "node server.js",
+        "test": "node client.js"
+      },
+      "dependencies": {
+        "undici": "^5.22.1"
+      }
+    }
